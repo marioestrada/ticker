@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-anim infinite 2s linear alternate;
+  animation-timing-function: ease-in-out;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.App-header {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  background-color: #343a40;
+  height: 40px;
+  padding: 20px;
+  color: white;
+}
+.App-header h2 {
+  font-weight: normal;
+}
+.App-headerOptions {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.App-headerOptions a {
+  color: #ccc;
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.App-loading {
+  font-size: large;
+}
+
+.App-list {
+  text-align: left;
+  margin: 20px auto;
+  max-width: 500px;
+  list-style: none;
+}
+
+@keyframes App-logo-anim {
+  from { transform: scale(0.98); }
+  to { transform: scale(1.02); }
+}

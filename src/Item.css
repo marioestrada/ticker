@@ -1,0 +1,29 @@
+.Item-root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 40px;
+  border-radius: 3px;
+  margin: 10px 0;
+  padding: 0 10px;
+  background: #fafafa;
+  cursor: pointer;
+}
+.Item-root:hover {
+  background: #f2f2f2; /* #007bff; */
+  user-select: none;
+}
+
+.Item-name {
+  font-weight: bold;
+  flex-grow: 1;
+}
+
+.Item-value {
+  flex-grow: 0;
+  background: #00dc83;
+  color: white;
+  border-radius: 3px;
+  padding: 2px 4px;
+}
